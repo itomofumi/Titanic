@@ -1,6 +1,5 @@
-from google.colab import files
 
-files = files.upload()
+
 
 
 import numpy as np
@@ -95,4 +94,3 @@ submission = pd.DataFrame({
 
 submission.to_csv('submission.csv', index=False)
 
-files.download('submission.csv')
